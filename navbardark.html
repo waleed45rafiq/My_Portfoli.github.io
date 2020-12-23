@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset2/style/bootstrap.min.css"/>
+    <link rel="stylesheet" href="asset2/style/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        $(document).ready(function () {
+          $(window).scrollTop(0);
+        });
+      </script>
+
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+        }
+      </script>
+
+
+
+<header>
+
+
+    <nav class="navbar navbar-expand-md" style="background-color: #121212;box-shadow: 0px 0px 40px 0px  rgb(167, 161, 161);
+      width: 100%;z-index: 9999;position: fixed;">
+
+      <a 
+      style="color:seagreen;font-size: xx-large;font-weight: bolder;padding-left: 1%;font-family: 'Concert One', cursive;
+      font-family: 'Patua One', cursive;
+       text-shadow: 0 2px 5px  rgba(0, 0, 0, 0.5);"
+       class="navbar-brand" href="#">Fine<span style="color: cornsilk;">Painter</span></a>
+      
+      <button onclick="myFunction(this)" class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#collapsibleNavbar">
+
+        <div style="display: inline-block;padding: 10px;background-color: transparent;">
+          <div style="width: 30px;height: 5px;background-color: white;transition: 0.4s;" class="bar1"></div>
+          <div style="width: 30px;height: 5px;background-color: white;" class="bar2 mt-1"></div>
+          <div style="width: 30px;height: 5px;background-color: white;transition:0.4s;" class="bar3 mt-1"></div>
+        </div>
+
+        
+
+      </button>
+      <div class="collapse navbar-collapse" style="list-style: none;
+      justify-content: center;" id="collapsibleNavbar">
+        <li class="nav-item">
+
+          <a style="color: cornflowerblue;font-size: 1.5rem;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" 
+          class="nav-link" href="navbardark.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="color: white;font-size: 1.5rem;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="nav-link"
+            href="aboutdark.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="color: white;font-size: 1.5rem;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="nav-link"
+            href="contactdark.html">Contact</a>
+        </li>
+
+        <li class="nav-item">
+          <a style="color: white;font-size: 1.5rem ;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="nav-link"
+            href="gallarydark.html">Gallary</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a style="color: white;font-size: 1.5rem;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" class="nav-link  dropdown-toggle"
+            href="#" data-toggle="dropdown"> Themes </a>
+
+          <ul class="dropdown-menu fade-up">
+            <li><a class="dropdown-item" href="navbar.html">Home 1 </a></li>
+            <li><a class="dropdown-item" href="navbardark.html">Home 2 </a></li>
+            <li><a class="dropdown-item" href="#">Home 3 </a></li>
+          </ul>
+
+        </li>
+      </div>
+    </nav>
+    <div class="container-fluid homed">
+        <div class="glowdiv">
+      <h2 class="glow">Home</h2>
+    </div>
+    </div>
+  </header>
+
+              <!-- image section -->
+
+<div class="jumbotron maind mb-0 mt-0">
+
+  <div class="container">
+
+    <h6 class="text-center" style="font-size: 1.8rem;
+    color: cornsilk;
+    text-shadow: 0 2px 5px  rgba(0, 0, 0, 0.5);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif"> 
+      OUR MAIN SERVICES
+    </h6>
+
+    <div class="row mt-5">
+      <div class="col-md-4 d-flex" width="100%" height="auto">
+        <div id="crd1" class="card" style="width: 100%;height: auto;">
+          <img id="img1" src="asset2/images/interor/interior.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center" style="color: cornsilk;">INTERIOR</h5>
+            <p class="card-text" 
+            style="font-size: 1rem;color: cornsilk;">Some quick example text to build on the card title and
+              make
+              up the bulk of the card's
+              content.Some quick example text to build on the card title.</p>
+            <a href="gallarydark.html" class="btn btn-success">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex" width="100%" height="auto">
+        <div id="crd2" class="card" style="width: 100%;height: auto;">
+          <img id="img2" src="asset2/images/pexels-photo-347141.jpeg" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title text-center" style="color: cornsilk;">EXTERIOR</h5>
+            <p class="card-text" style="font-size: 1rem;color: cornsilk;">Some quick example text to build on the card title and
+              make
+              up the bulk of the card's
+              content.Some quick example text to build on the card title.</p>
+            <a href="gallarydark.html" class="btn btn-success">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex" width="100%" height="auto">
+        <div id="crd3" class="card">
+          <img id="img3" src="asset2/images/interior-design-mockup-with-vertical-frame_1961-240.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body text-center" height="auto">
+            <h5 class="card-title text-center" style="color: cornsilk;">RESIDENTIAL </h5>
+            <p class="card-text" style="font: size 1rem;color:cornsilk
+            ">Some quick example text to build on the card title and
+              make
+              up the bulk of the card's
+              content.Some quick example text to build on the card title.</p>
+            <a href="gallarydark.html" class="btn btn-success">SEE MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<!-- Services end -->
+
+<!-- About strt -->
+
+
+<div class="jumbotron mt-0 mb-0" style="background-color: #121212;height: auto;width: 100%;">
+
+  <h4 class="text-center" 
+  style="font-size: 2rem;
+  text-shadow: 0 2px 5px  rgba(235, 232, 232, 0.5);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(252, 245, 245);">ABOUT US</h4>
+  
+  <div class="row mt-5"> 
+    <!-- <div class="col-md-6 col-lg-6 col-sm-12" style="background-color: transparent">
+      
+        <img src="asset2/images/man-paints-white-wall-smiles_85574-5138.jpg" alt="Denim Jeans"
+          style="width:100%;height:auto">
+
+
+
+      
+    </div> -->
+
+   
+    <div class="col-md-12 container mt-0 aboutp">
+      <h5 style="font-size: 1.5rem;color:white">Doing Painting is</h5>
+      <p
+        style="color:  whitesmoke;font-size: x-large;font-family:sans-serif">
+        Our Big
+        Passion</p>
+      <p 
+      class="paraabout">
+      Fine painters is a professional full-service interior and exterior house
+        painting contractor. We got our
+        start back in 1984 when we began painting residential single family homes in the North Shore of Chicago
+        during summers while in college.We decided immediately that our goal would be to focus on high quality
+        work,
+        excellent service and using only high quality exterior and interior paints and coatings, even if this
+        meant
+        that our price would be higher than Hank and his brother in law or other freelance or station wagon bandit
+        types. We knew that people would be willing to pay a little bit more for quality and service.</p>
+       <div class="text-center rbtn">
+        <a href="aboutdark.html" class="btn abtn">Read More</a>
+      </div>
+    </div> 
+  </div>
+
+</div> 
+
+<!-- About end -->
+
+
+<!-- ltest strt -->
+<div class="jumbotron latest mb-0">
+  <div class="row">
+
+
+    <div class="col-md-12 latest2 container" width="100%" height="auto">
+      <h4 class="text-center"
+        style="font-size: 1.8rem;text-shadow: 0 2px 5px  rgba(0, 0, 0, 0.5);
+        color: rgb(255, 255, 255);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        LASTEST PROJECTS</h4>
+      <ul class="timeline">
+        <li>
+          <a target="_blank" class="latsta" href="https://www.totoprayogo.com/#">Unique Design</a>
+          <a href="#" class="float-right latsta2">21 March, 2014</a>
+          <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo
+            accumsan, sed semper nisi sollicitudin...</p>
+        </li>
+        <li>
+          <a href="#" class="latsta">Time Consumer</a>
+          <a href="#" class="float-right latsta2">4 March, 2014</a>
+          <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo
+            accumsan, sed semper nisi sollicitudin...</p>
+        </li>
+        <li>
+          <a href="#">Awesome Coloring</a>
+          <a href="#" class="float-right">1 April, 2014</a>
+          <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae,
+            mollis pharetra velit. Sed nec tempor nibh...</p>
+        </li>
+        <li>
+          <a href="#">Best Paint Award </a>
+          <a href="#" class="float-right">1 May, 2014</a>
+          <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae,
+            mollis pharetra velit. Sed nec tempor nibh...</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- ltest end -->
+
+
+<!-- slide strt -->
+<div class="container-fluid mt-0 mb-0" style="background: #333333;">
+  <div class="container" style="background: transparent;">
+    <div class="contaner">
+      <div class="title">
+        <h1 style="text-shadow: 0 2px 5px  rgba(0, 0, 0, 0.5);
+        ">My Clients</h1>
+      </div>
+      <div class="slider">
+        <div class="slide active">
+          <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis.
+            Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit
+            dignissim pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis.
+            Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit
+            dignissim pellentesque. "</p>
+          <div class="client-info">
+            <h3>Gourge Gam</h3>
+            <span>Founder at Gikio</span>
+          </div>
+        </div>
+        <div class="slide">
+          <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis.
+            Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit
+            dignissim pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis.
+            Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit
+            dignissim pellentesque. "</p>
+          <div class="client-info">
+            <h3>Pooja Singh</h3>
+            <span>Founder at KrimSim</span>
+          </div>
+        </div>
+        <div class="slide">
+          <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis.
+            Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit
+            dignissim pellentesque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis.
+            Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit
+            dignissim pellentesque. "</p>
+          <div class="client-info">
+            <h3>Rinki Paul</h3>
+            <span>Founder at Chamba</span>
+          </div>
+        </div>
+      </div>
+      <div class="slider-indicater">
+        <img src="asset2/images/VIP PIC/6.jpg" class="active" alt="img" data-id="0" />
+        <img src="asset2/images/VIP PIC/images (4).jpg" alt="img" data-id="1" />
+        <img src="asset2/images/VIP PIC/slide image2.jpg" alt="img" data-id="2" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- slide end -->
+
+<!-- footer -->
+<footer>
+  <div class="container-fluid footc">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="foot1">
+                  <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                      FINE PAINTER<br>
+                      <span class="fcp1s">
+                          Prefered Quality
+                      </span>
+                  </h3>
+                  <P class="mt-4 mb-0 foot1p">
+
+                      ABOUT US
+
+
+                  </p>
+                  <span class="fcp2s">
+                      painting contractor. We got our
+                      start back in 1984 when we began painting residential single family homes in the North Shore
+                      of Chicago
+                      during summers while in college.</span>
+                    
+
+                  <p class="mt-4 mb-0 foot1p">
+
+                      CONTACT Us
+                  </p>
+                  <i class="fa fa-phone " style="font-size: 20px;color: steelblue;"></i>
+                  <span class="ml-2  mt-0" style="font-size: medium;color: whitesmoke;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">+92-300-849876-7</span>
+                  <br>
+                  <i class="fa fa-envelope" style="color:steelblue"></i>
+
+                  <span class="ml-2"
+                      style="font-size: medium;color: whitesmoke;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">FinePainter@hotmail.com</span>
+              </div>
+
+          </div>
+          <div class="col-md-3 text-center foot1a">
+              <h5 class="text-center hd">Information</h5>
+              <div class="container infoa">
+                <i class="fa fa-home" style="color: steelblue;"></i>
+                  <a class="ml-0" href="navbardark.html">Home</a><br><br>
+                  <i class="fa fa-envelope" style="color: steelblue;"></i>
+                  <a class="ml-0" href="contactdark.html">Contact Us</a><br><br>
+                  <i class="fa fa-file-image-o" style="color: steelblue;"></i>
+                  <a class="ml-0" href="gallarydark.html">Gallary</a><br><br>
+                  <i class="fa fa-quote-right" style="color: steelblue;"></i>
+                  <a class="ml-0"  href="aboutdark.html">Testmonial</a><br>
+              </div>
+          </div>
+
+          <div class="col-md-2 helpa foot2">
+              <h5 class="hd">Helpful Links</h5>
+              <i class="fa fa-cogs" style="color: steelblue;"></i>
+              <a  href="navbardark.html">Services</a><br><br>
+              <i class="fa fa-support" style="color: steelblue;"></i>
+              <a  href="navbardark.html">Support</a><br><br>
+              <i class="fa fa-lock" style="color: steelblue;"></i>
+              <a  href="navbardark.html">Terms & Condition</a><br><br>
+              <i class="fa fa-info-circle" style="color: steelblue;"></i>
+              <a  href="navbardark.html">Privacy & Policy</a><br>
+          </div>
+          <div class="col-md-3 text-center foot3">
+              <h5 class="hd">Subscribe More info</h5>
+
+                                <!-- input feild -->
+              <input id="name" name="name" type="text" class="form-control form-control-md"
+                  placeholder="Enter Email Address"/>
+
+              <button id="submit" class="btn btn-block btn-outline-light mt-3">Subscribe</button>
+              <div id="show" style="background-color: cornsilk;display: none;margin-top: 10px;">
+
+                <p>Please fill requried feild</p>
+                <p id="show2">Please fill requried feild</p>
+                
+                    </div>
+            <div class="text-center">
+                  <div class="social s1">
+                      <a href="https://www.facebook.com/" class="fa fa-facebook" style="position: absolute;font-size: 30px;margin-top: 10px;
+                          margin-left: -10px;text-decoration: none;color: white;"></a>
+
+                  </div>
+                  <div class="social s2">
+                      <a href="https://twitter.com/login?lang=en" class="fa fa-twitter" style="position: absolute;font-size: 30px;margin-top: 10px;margin-left: -13px;
+                          text-decoration: none;color: white;"></a>
+
+                  </div>
+                  <div class="social s3">
+                      <a href="https://www.youtube.com/" class="fa fa-youtube-play" style="position: absolute;font-size: 28px;margin-top: 10px;
+                          margin-left: -14px;text-decoration: none;color: #bb0000;"></a>
+
+                  </div>
+                  <div class="social s4">
+                      <a href="https://www.instagram.com/accounts/login/?hl=en" class="fa fa-instagram" style="position: absolute;font-size: 30px;
+                          margin-top: 10px;margin-left: -12px;text-decoration: none;color: white;"></a>
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+  </div>
+  <hr style="background:whitesmoke;">
+  <div class="container-fluid text-center" style="height: auto;width: 100%;padding: 1%;">
+      <p style="color: whitesmoke;" class="mt-3">
+          @Copy All Right Reserve By FinePanter.com
+      </p>
+
+
+  </div>
+  
+</footer>
+
+
+<!-- footer end -->
+<script src="asset2/javas/script.js"></script>
+ <script src="asset2/javas/jquery-3.4.1.slim.min.js"></script>
+  <script src="asset2/javas/popper.min.js"></script>
+  <script src="asset2/javas/bootstrap.min.js"></script>
+
+</body>
+</html>
